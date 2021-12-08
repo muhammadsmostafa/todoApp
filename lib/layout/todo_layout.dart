@@ -95,7 +95,8 @@ class _HomeLayoutState extends State<HomeLayout> {
                                 ),
                                 defaultFormField(
                                   controller: timeController,
-                                  type: TextInputType.datetime,
+                                  type: TextInputType.none,
+
                                   onTap: ()
                                   {
                                     showTimePicker(
@@ -123,7 +124,7 @@ class _HomeLayoutState extends State<HomeLayout> {
                                 ),
                                 defaultFormField(
                                   controller: dateController,
-                                  type: TextInputType.datetime,
+                                  type: TextInputType.none,
                                   onTap: ()
                                   {
                                     showDatePicker(
