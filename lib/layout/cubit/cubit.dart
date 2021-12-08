@@ -146,5 +146,4 @@ class AppCubit extends Cubit<AppState>
     fabIcon = icon;
     emit(AppChangeBottomSheetState());
   }
-
 }
