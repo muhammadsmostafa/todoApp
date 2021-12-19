@@ -7,15 +7,15 @@ import 'cubit/cubit.dart';
 import 'cubit/state.dart';
 
 
-class HomeLayout extends StatefulWidget
+class AppLayout extends StatefulWidget
 {
-  const HomeLayout({Key? key}) : super(key: key);
+  const AppLayout({Key? key}) : super(key: key);
 
   @override
-  State<HomeLayout> createState() => _HomeLayoutState();
+  State<AppLayout> createState() => _AppLayoutState();
 }
 
-class _HomeLayoutState extends State<HomeLayout> {
+class _AppLayoutState extends State<AppLayout> {
   var scaffoldKey = GlobalKey<ScaffoldState>();
 
   var formKey = GlobalKey<FormState>();

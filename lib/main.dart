@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:todo_app/layout/app_layout.dart';
 import 'package:todo_app/shared/bloc_observer.dart';
-import 'layout/todo_layout.dart';
 
 void main()
 {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget
   {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeLayout(),
+      home: AppLayout(),
     );
   }
 }
