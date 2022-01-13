@@ -96,7 +96,6 @@ class _AppLayoutState extends State<AppLayout> {
                                 defaultFormField(
                                   controller: timeController,
                                   type: TextInputType.none,
-
                                   onTap: ()
                                   {
                                     showTimePicker(
@@ -131,7 +130,7 @@ class _AppLayoutState extends State<AppLayout> {
                                       context: context,
                                       initialDate: DateTime.now(),
                                       firstDate: DateTime.now(),
-                                      lastDate: DateTime.parse('2021-12-30'),
+                                      lastDate: DateTime.parse('2022-12-30'),
                                     ).then((value)
                                     {
                                       dateController.text = DateFormat.yMMMd().format(value!);
